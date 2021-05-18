@@ -4,7 +4,9 @@
   "description": "Online Portfolio gallery",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node --presets='@babel/preset-env'",
+    "start": "nodemon --exec npm run babel-node -- server.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +19,15 @@
   },
   "homepage": "https://github.com/YosefSolomon19/Online-Veranda#readme",
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
     "eslint": "^7.26.0",
     "eslint-plugin-vue": "^7.9.0",
     "nodemon": "^2.0.7"
   },
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "presets": ["@babel/preset-env"]
 }
