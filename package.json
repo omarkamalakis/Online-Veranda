@@ -1,0 +1,27 @@
+{
+  "name": "online-veranda",
+  "version": "0.1.0",
+  "description": "Online Portfolio gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YosefSolomon19/Online-Veranda.git"
+  },
+  "author": "Yosef Solomon, Gabe Kamalakis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YosefSolomon19/Online-Veranda/issues"
+  },
+  "homepage": "https://github.com/YosefSolomon19/Online-Veranda#readme",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
